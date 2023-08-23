@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Expenses.Api.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Expenses.Api.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.Api.Models.dll": {}
+        }
+      },
+      "Expenses.Data.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Expenses.Data.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.Data.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Expenses.Api.Models/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.Api.Models/Expenses.Api.Models.csproj",
+      "msbuildProject": "../Expenses.Api.Models/Expenses.Api.Models.csproj"
+    },
+    "Expenses.Data.Model/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.Data.Model/Expenses.Data.Model.csproj",
+      "msbuildProject": "../Expenses.Data.Model/Expenses.Data.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Expenses.Api.Models >= 1.0.0",
+      "Expenses.Data.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wisdo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Queries\\Expenses.Queries.csproj",
+      "projectName": "Expenses.Queries",
+      "projectPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Queries\\Expenses.Queries.csproj",
+      "packagesPath": "C:\\Users\\wisdo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Queries\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\wisdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Api.Models\\Expenses.Api.Models.csproj": {
+              "projectPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Api.Models\\Expenses.Api.Models.csproj"
+            },
+            "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Data.Model\\Expenses.Data.Model.csproj": {
+              "projectPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\Expenses\\Expenses.Data.Model\\Expenses.Data.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
