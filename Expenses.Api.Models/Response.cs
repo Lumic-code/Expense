@@ -1,7 +1,8 @@
 ﻿namespace Expenses.Api.Models
 {
-    public class Class1
+    public class Response<T>
     {
-
+        public T[] Data { get; set; }
+        public int Total { get; set; }
     }
 }

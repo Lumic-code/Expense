@@ -1,5 +1,5 @@
 ﻿using Expenses.Data.Access.Maps.Common;
-using Expenses.Data.Model;
+using Expenses.Data.Model.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Expenses.Data.Access.Maps.Main

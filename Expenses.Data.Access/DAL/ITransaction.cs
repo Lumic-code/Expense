@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Expenses.Data.Access.DAL
 {
-    internal interface ITransaction
+    public interface ITransaction : IDisposable
     {
+        void Commit();
+        void Rollback();
     }
 }

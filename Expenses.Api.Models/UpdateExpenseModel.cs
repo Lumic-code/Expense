@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Expenses.Api.Models
 {
-    internal class UpdateExpenseModel
+    public class UpdateExpenseModel
     {
+        [Required]
+        public DateTime? Date { get; set; }
+        [Required]
+        public string Description { get; set; }
+        [Required]
+        [Range(0.01, int.MaxValue)]
+        public decimal? Amount { get; set; }
+        [Required]
+        public string Comment { get; set; }
     }
 }
